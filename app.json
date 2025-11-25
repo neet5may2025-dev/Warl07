@@ -1,23 +1,44 @@
 {
   "expo": {
-    "name": "studymother",
+    "name": "Study Mother",
     "slug": "studymother",
     "version": "1.0.0",
-    "sdkVersion": "51.0.0",
-    "platforms": ["ios", "android"],
-    "android": {
-      "package": "com.war107.studymother"
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "bundleIdentifier": "com.war107.studymother"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.studymother.app"
     },
-    "cli": {
-      "appVersionSource": "remote"
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.studymother.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "7a36e5be-39b3-44cc-9128-b20ad0989ab1"
+        "projectId": "studymother"
       }
+    },
+    "cli": {
+      "appVersionSource": "app.json"
     }
   }
 }
