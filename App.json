@@ -4,13 +4,19 @@
     "slug": "studymother",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
-    "android": {
-      "package": "com.studymother.app"
-    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+
     "extra": {
       "eas": {
         "projectId": "7a36e5be-39b3-44cc-9128-b20ad0989ab1"
       }
+    },
+
+    "android": {
+      "package": "com.warl07.studymother"
     }
   }
 }
