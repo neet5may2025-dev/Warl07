@@ -3,20 +3,9 @@
     "name": "studymother",
     "slug": "studymother",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./welcome.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "sdkVersion": "50.0.0",
     "android": {
-      "package": "com.warl07.studymother",
-      "googleServicesFile": "./google-services.json"
+      "package": "com.studymother.app"
     },
     "extra": {
       "eas": {
