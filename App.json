@@ -11,23 +11,29 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.warl07.studymother"
+    },
 
     "android": {
       "package": "com.warl07.studymother",
       "versionCode": 1,
-      "permissions": []
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
 
-    "ios": {
-      "bundleIdentifier": "com.warl07.studymother",
-      "supportsTablet": true
-    },
-
-    "plugins": [
-      "@react-native-async-storage/async-storage"
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "d4db5e00-b73c-42e8-9691-05bf350c9865"
+      }
+    }
   }
 }
