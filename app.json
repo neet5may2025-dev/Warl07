@@ -1,22 +1,30 @@
 {
   "expo": {
-    "name": "studymother",
-    "slug": "sm",
+    "name": "MyApp",
+    "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./icon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "android": {
-      "package": "com.warl07.studymother",
-      "googleServicesFile": "./google-services.json"
+    "ios": {
+      "supportsTablet": true
     },
-    "extra": {
-      "eas": {
-        "projectId": "7a36e5be-39b3-44cc-9128-b20ad0989ab1"
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
