@@ -3,21 +3,19 @@
     "name": "studymother",
     "slug": "studymother",
     "version": "1.0.0",
-    "sdkVersion": "50.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-
+    "sdkVersion": "51.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.war107.studymother"
+    },
+    "ios": {
+      "bundleIdentifier": "com.war107.studymother"
+    },
     "extra": {
       "eas": {
         "projectId": "7a36e5be-39b3-44cc-9128-b20ad0989ab1"
       }
-    },
-
-    "android": {
-      "package": "com.warl07.studymother"
     }
   }
 }
-"testing": "war107-fix-25112025"
