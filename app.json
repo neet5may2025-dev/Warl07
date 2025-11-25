@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "studymother",
+    "slug": "studymother",
+    "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.war107.studymother"
+    },
+    "ios": {
+      "bundleIdentifier": "com.war107.studymother"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a36e5be-39b3-44cc-9128-b20ad0989ab1"
+      }
+    }
+  }
+}
